@@ -9,12 +9,14 @@
     <?php # Script 1.7 - strings.php
 
         // Create the variables.
-        $first_name = 'Nick';
-        $last_name = 'Hornby';
-        $book = 'High Fidelity';
+        $first_name = 'Melissa';
+        $last_name = 'Bank';
+        $author = $first_name . ' '. $last_name;
+
+        $book = 'The Girls\' Guide to Hunting and Fishing';
 
         // Print the values
-        echo "The book <i>$book</i> was written by $first_name $last_name";
+        echo "The book <i>$book</i> was written by $author";
 
     ?>
 </body>
